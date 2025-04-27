@@ -8,7 +8,8 @@ def start_session():
     return "openai" if choice == "1" else "local"
 
 def create_base_prompt(user_name="James"):
-    weather_data = bf.weather_api()
+    # Get Weather Data to include in the prompt to make it more personalized. Should be coordinates for user.
+    weather_data = bf.weather_api(lat=40.799, lon=-81.3784)
     weather_description = weather_data["weather_description"]
     temperature = weather_data["temperature"]
     session_context_raw = bf.load_context()
