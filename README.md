@@ -9,3 +9,13 @@ While using “Monday” as a guide, I learned that even the model began to chan
 
 The goal of this project is to build an AI companion that can quantitate personality and observe when there is a decline overtime.  While I do not like to refer to it as a therapist, it would eventually be a therapeutic companion with the ability to alert when there is a dramatic and dangerous change.  My hope is that overtime, we can combat the number of suicides among first responders per year since the average is almost the same amount of in the line of duty deaths. 
 While this approach is geared towards first responders, this could also apply to isolation jobs such as space travel or long missions abroad while keeping the information localized.
+
+## Utilization
+You will need to install Ollama and have a GPT API key.
+1: Run credential_manager.py to add your credential file to pull from
+2: Install ollama and download (Pull) mistral
+3: Create a batch file
+    @echo off
+    cd /d YOUR FOLDER TO CHAT
+    "YOUR PYTHON ENVIRONMENT python.exe FILE LOCATION" vireya_chat.py
+    pause

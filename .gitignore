@@ -2,6 +2,8 @@
 .env
 .env.*
 .txt
+*.bat
+
 
 # Byte-compiled / cache files
 __pycache__/
