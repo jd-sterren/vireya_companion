@@ -12,10 +12,10 @@ While this approach is geared towards first responders, this could also apply to
 
 ## Utilization
 You will need to install Ollama and have a GPT API key.
-1: Run credential_manager.py to add your credential file to pull from
-2: Install ollama and download (Pull) mistral
-3: Create a batch file
-    @echo off
-    cd /d YOUR FOLDER TO CHAT
-    "YOUR PYTHON ENVIRONMENT python.exe FILE LOCATION" vireya_chat.py
-    pause
+1: Run credential_manager.py to add your credential file to pull from</br>
+2: Install ollama and download (Pull) mistral</br>
+3: Create a batch file with the following inside:</br>
+    @echo off</br>
+    cd /d YOUR FOLDER TO CHAT</br>
+    "YOUR PYTHON ENVIRONMENT python.exe FILE LOCATION" vireya_chat.py</br>
+    pause</br>
